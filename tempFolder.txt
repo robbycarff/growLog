@@ -1,0 +1,13 @@
+
+Current date and time
+2018-01-15 19:13
+Temp = 74.972 deg F 
+Temp = 74.908 deg F 
+Temp = 75.080 deg F 
+Temp = 75.216 deg F 
+
+Current date and time
+2018-01-15 19:14
+Temp = 75.120 deg F 
+Temp = 75.188 deg F 
+Temp = 75.297 deg F 
