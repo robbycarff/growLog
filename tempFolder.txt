@@ -11,3 +11,83 @@ Current date and time
 Temp = 75.120 deg F 
 Temp = 75.188 deg F 
 Temp = 75.297 deg F 
+
+Current date and time
+2018-01-24 02:38
+Temp = 76.329 deg F 
+
+Current date and time
+2018-01-24 02:38
+Temp = 76.383 deg F 
+Temp = 76.315 deg F 
+Temp = 76.213 deg F 
+Temp = 76.170 deg F 
+Temp = 76.112 deg F 
+Temp = 76.131 deg F 
+Temp = 76.122 deg F 
+Temp = 76.095 deg F 
+Temp = 76.046 deg F 
+Temp = 76.030 deg F 
+Temp = 75.998 deg F 
+Temp = 75.957 deg F 
+Temp = 75.935 deg F 
+Temp = 75.959 deg F 
+Temp = 75.958 deg F 
+Temp = 75.964 deg F 
+Temp = 75.942 deg F 
+Temp = 75.953 deg F 
+Temp = 75.983 deg F 
+Temp = 75.968 deg F 
+Temp = 75.939 deg F 
+Temp = 75.931 deg F 
+Temp = 75.945 deg F 
+Temp = 75.925 deg F 
+Temp = 75.862 deg F 
+Temp = 75.857 deg F 
+Temp = 75.847 deg F 
+Temp = 75.849 deg F 
+Temp = 75.832 deg F 
+Temp = 75.826 deg F 
+Temp = 75.803 deg F 
+Temp = 75.817 deg F 
+Temp = 75.808 deg F 
+Temp = 75.802 deg F 
+Temp = 75.771 deg F 
+Temp = 75.770 deg F 
+Temp = 75.775 deg F 
+Temp = 75.756 deg F 
+Temp = 75.760 deg F 
+Temp = 75.783 deg F 
+Temp = 75.807 deg F 
+Temp = 75.773 deg F 
+Temp = 75.746 deg F 
+Temp = 75.730 deg F 
+Temp = 75.732 deg F 
+Temp = 75.757 deg F 
+Temp = 75.715 deg F 
+Temp = 75.744 deg F 
+Temp = 75.743 deg F 
+Temp = 75.753 deg F 
+Temp = 75.743 deg F 
+
+Initial date and time
+2018-01-24 02:51
+Temp = 76.171 deg F 
+
+Initial date and time
+2018-01-24 02:52
+Temp = 76.182 deg F 
+
+Initial date and time
+2018-01-24 02:55
+Temp = 76.197 deg F 
+
+Initial date and time
+2018-01-24 02:58
+Temp = 76.359 deg F 
+Temp = 76.286 deg F 
+Temp = 76.218 deg F 
+Temp = 76.199 deg F 
+Temp = 76.156 deg F 
+Temp = 76.154 deg F 
+Temp = 76.150 deg F 

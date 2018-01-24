@@ -1,8 +1,16 @@
 from Adafruit_BME280 import *
 import datetime
+import RPi.GPIO as GPIO
+from time import sleep
 
+#pinout from raspberry pi 3 using BCM 17,27
+Relay_channel = [17, 27]
+setTemp = 75
 
 def setup():
+    #setting up GPIO for turning relays on/off 
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(Relay_channel, GPIO.OUT, initial=GPIO.LOW)
     # creating global senor
     # (temp, pressure, humidity)
     global sensor
@@ -43,19 +51,40 @@ def loop():
     #getting date and time
     dateTime()
     #writing date and time
-    f.write("\nCurrent date and time\n")
+    f.write("\nInitial date and time\n")
     f.write (now.strftime("%Y-%m-%d %H:%M") + '\n')
+    
     
     
     while on:
         degrees = sensor.read_temperature_f()
         f.write('Temp = {0:0.3f} deg F \n'.format(degrees) )
         print 'Temp = {0:0.3f} deg F'.format(degrees)
-        time.sleep(10)
+        time.sleep(5)
+        #change these to if statements based on the temperature read
+        #for i in range(0, len(Relay_channel)):
+        if (degrees > setTemp):
+            print 'Temperature too high, turning on A/C'
+            print '...Relay channel %d on' % 0
+            GPIO.output(Relay_channel[0], GPIO.HIGH)
+            sleep(0.5)
+            print '...Relay channel %d off' % 1
+            GPIO.output(Relay_channel[1], GPIO.LOW)
+            sleep(0.5)
+            
+        else:
+            print 'Temperature too high, turning on HEAT'
+            print '...Relay channel %d off' % 0
+            GPIO.output(Relay_channel[0], GPIO.LOW)
+            sleep(0.5)
+            print '...Relay channel %d on' % 1
+            GPIO.output(Relay_channel[1], GPIO.HIGH)
+            sleep(0.5)
         
     f.close()
 
 def destroy():
+    GPIO.output(Relay_channel, GPIO.LOW)
     on = False
     
     
