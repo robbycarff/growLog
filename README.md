@@ -15,11 +15,11 @@ xwy
 ### Deployment
 
 ```
-docker-compose up
+
 ```
 
 ## Built With
-
+broken links
 * [Raspberry pi](https://scalar.me/anvc/scalar/) 
 * [Python](https://www.mysql.com/)
 * [Sensors](www.html.com)
@@ -30,12 +30,11 @@ docker-compose up
 Please read [CONTRIBUTING.md](https://github.com/CDH-SC/ach) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
-
-The github version should be the current state of this project. Scalar is used as a Content managment system and should not require any more development besides adding images/test. this is all STORED IN THE DATABASE BACKUP. Therefore the current state of the project will be based on restoring the most current database backup called ach_backup.sql
+In Development
 
 ## Authors
 
-* **Robert Carff** - *Initial work* - [robbycarff](https://github.com/robbycarff)
+* **Robert Carff** - - [robbycarff](https://github.com/robbycarff)
 
 ## License
 
