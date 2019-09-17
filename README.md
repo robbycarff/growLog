@@ -3,7 +3,7 @@
 This project uses a [Rasberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) to read from various sensors.
 It is currently written in Python.
   * [Rasberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
-  * [Adafruit BMP280] (https://www.adafruit.com/product/2651)
+  * [Adafruit BMP280](https://www.adafruit.com/product/2651)
   * [Sunfounder 5v Relay](https://www.sunfounder.com/2-channel-dc-5v-relay-module-with-optocoupler-low-level-trigger-expansion-board.html)
   
 Goals:
